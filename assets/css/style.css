@@ -1,0 +1,224 @@
+:root {
+    --color-fondo: #F8F7F6;
+    --color-boton-card: #F0EEE8;
+    --color-borde: #2F2F2F;
+    --color-fondo-formulario: #F5F5F5;
+    --peso-fuente-extralight: 200;
+    --peso-fuente-light: 300;
+    --peso-fuente-regular: 400;
+    --peso-fuente-medium: 500;
+    --peso-fuente-bold: 700;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    background-color: var(--color-fondo);
+    /* font-family: 'Raleway', sans-serif; */
+    animation: 1.5s opacidad;
+}
+.migas:hover {
+    border-bottom: 1px solid;
+}
+
+@keyframes opacidad {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/*Header*/
+.logo {
+    width:110px;
+    height:50px;
+}
+.navbar-nav li a {
+    font-weight: var(--peso-fuente-light);
+    font-size: 20px;
+    transition: .5s;
+    padding: 0;
+    margin: 7px;
+}
+.navbar-nav li a:hover {
+    color: black;
+}
+/*Header*/
+
+
+
+/*Mensaje de Bienvenida*/
+.contenedor-saludo {
+    /* border: 1px solid var(--color-borde); */
+    background-color: var(--color-boton-card);
+}
+.titulo-saludo {
+    font-weight: var(--peso-fuente-bold);
+    font-size: 280%;
+}
+.saludo {
+    font-weight: var(--peso-fuente-medium);
+    font-size: 125%;
+}
+/*Mensaje de Bienvenida*/
+
+
+
+/*Formulario Personalizado*/
+.seccion-3-formulario {
+    background-color: var(--color-fondo-formulario);
+}
+/*Formulario Personalizado*/
+
+
+/*Footer*/
+footer {
+    background-color: var(--color-borde);
+}
+.iconos-footer {
+    margin: 0 10px;
+    font-size: 120%;
+    color: white;
+}
+.iconos-footer:first-of-type {
+    margin: 0 10px 0 0;
+}
+.iconos-footer:hover {
+    color: gray;
+}
+footer ul li {
+    margin: 5px 0;
+}
+.nav-footer {
+    color: white;
+}
+.nav-footer:hover {
+    color: gray;
+}
+.ingresa:hover {
+    border-bottom: 1px solid;
+}
+/*Footer*/
+
+
+
+/*Agregar esto para estilo de checkout*/
+.ficha-detalles-pago {
+    background-color: var(--color-fondo-ficha);
+}
+.boton {
+    border: 1px solid var(--color-borde);
+    background-color: var(--color-boton-card);
+}
+/*Agregar esto para estilo de checkout*/
+
+
+
+/*Estilos para las tarjetas (Jorge)*/
+.descripcion {
+    font-size: 120%;
+}
+.precio {
+    font-size: 250%;
+}
+.card {
+    background-color: #F0EEE8;
+    padding: 20px 20px 0 20px;
+    border-radius: 0 !important;
+    border: #F0EEE8;
+}
+
+.texto-card{
+    font-weight: 400;
+}
+
+.card img {
+    border-radius: 0% !important;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.botones {
+    color: var(--color-borde);
+    background-color: var(--color-fondo);
+}
+.boton-filtro:hover {
+    background-color: var(--color-boton-card);
+}
+.botones-focus:focus {
+    color: var(--color-fondo);
+    background-color: var(--color-borde);
+}
+.boton-hover{
+    background-color:#F0EEE8;
+    border: 1px, solid, black;
+    transition: background-color .3s;
+}
+.boton-hover:hover{
+    background-color: white;
+}
+.miniaturas-ficha:hover{
+    border: 2px solid var(--color-borde);
+}
+/* .hover-card {
+    transition: .3s;
+}
+.hover-card:hover{
+    box-shadow: 1px 1px var(--color-borde);
+} */
+  
+.ver-mas {
+    border: 1px solid var(--color-borde);
+    font-weight: var(--peso-fuente-bold);
+    background-color: var(--color-boton-card);
+    transition: .3s;
+}
+.ver-mas:hover {
+    color: var(--color-fondo);
+    background-color: var(--color-borde);
+}
+/*Estilos para las tarjetas (Jorge)*/
+
+
+
+/*Catalogo de productos*/
+.fondo-categoria {
+    background-color: var(--color-fondo-formulario);
+}
+/*Catalogo de productos*/
+
+
+
+/*Ficha de productos*/
+.fondo-ficha {
+    background-color: var(--color-fondo-formulario);
+}
+
+.recomendados{
+    margin-bottom: 38vh;
+    margin-top: 23vh;
+}
+/*Ficha de productos*/
+
+
+
+/*Carrito*/
+.fondo-carrito {
+    background-color: var(--color-fondo-formulario);
+}
+.imagen-carrito {
+    width: 150px;
+    height: 150px;
+}
+/*Carrito*/
+
+
+/*Sección Fotos*/
+.sec-fotos{
+    margin-bottom: 7vh;
+}
